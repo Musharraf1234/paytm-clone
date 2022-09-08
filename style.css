@@ -1,0 +1,1158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+   
+   
+}
+
+nav{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    box-shadow: -1px 7px 49px -14px rgba(0,0,0,0.63);
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+}
+
+.sign-btn{
+    width: 110px;
+    height: 35px;
+    border-radius: 40px;
+    padding-left: 15px;
+    background-color: #00baf2;
+    border: none;
+    color: white;
+}
+
+/* .btn-img{
+    background-image: url(./images/9fd9626b.svg);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+}
+ */
+
+
+.sign-btn:hover{
+    background-color: #002970;
+}
+
+.sign-btn p{
+    font-size: 18px;
+}
+
+.sign-btn span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-image{
+    height: 30px;
+}
+
+
+.bi-list{
+    font-size: 32px;
+    display: none;
+}
+
+.logo-links{
+    list-style: none;
+}
+
+.kyc-note{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.kyc-note ul{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.first{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    font-size: 30px;
+}
+
+.second{
+    height: 80%;
+    width: 40%;
+    background-image: url(./images/1656568118664.webp);
+    background-size: cover;
+}
+
+.logo2{
+    height: 75px;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+.text{
+    height: 130px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.first p{
+    font-size: 22px;
+}
+.p-button{
+    /* display: flex; */
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 140px;
+    margin-left: 30px;
+    color: white; 
+    background-color: black;
+
+}
+.applepng{
+    height: 20px;
+}
+
+.playstore{
+    height: 20px;
+}
+
+.card-section-first{
+    height: 360px;
+    width: 100%;
+    background-color: #00baf2;
+    position: relative;
+   
+}
+
+.card-section-first h1{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 10px;   
+    top: 30px;
+}
+
+.card-section-second h1{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 10px;   
+    top: 30px;
+}
+
+.card-section-first p{
+    font-size: 17px;
+    font-weight: 480;
+}
+
+.card-section-second p{
+    font-size: 17px;
+    font-weight: 480;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+.card-section-second{
+    height: 360px;
+    width: 100%;
+    background-color: #193f81;
+}
+
+.service img{
+    height: 60px;
+}
+.accept-containerone{
+    height: 120vh;
+    width: 100%;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.payanyone{
+    height: 92%;
+    width: 92%;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}   
+.payanyonel{
+    height: 92%;
+    width: 92%;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}   
+.payanyonefast{
+    height: 92%;
+    width: 92%;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}   
+
+.payanyonefast button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    height: 46px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.payanyonetext{
+    height: 100%;
+    width: 50%;
+
+}
+
+.payanyoneimg{
+    height: 100%;
+    width: 50%;
+   
+}
+
+.payanyone img{
+    height: 470px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.payanyonel img{
+    height: 470px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.payanyonel button{
+    background-color: #00174d;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+
+
+
+
+.payanyonefast img{
+    height: 470px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.payanyonetext h1{
+    font-size: 36px;
+    margin-left: 80px;
+    margin-top: 50px;
+   
+}
+
+.payanyonetext p{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 50px;
+  
+   
+}
+
+.payanyone button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    height: 46px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.payanyonl button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    height: 46px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.vep{
+    height: 90px;
+    width: 90px; 
+    background-image: url(./images/1img.png);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 110px;
+}
+.veptwo{
+    height: 100px;
+    width: 100px;
+    background-image: url(./images/2img.png);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.vepthree{
+    height: 0100px;
+    width: 220px;
+    background-image: url(./images/3img.webp);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.b-button{
+    height: 40px;
+    width: 200px;
+}
+.inshope-containerone{
+    height: 120vh;
+    width: 100%;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paytmwallet{
+    height: 580px;
+    width: 60%;
+    background-color: white;
+    border-radius: 13px;
+    
+}
+
+
+.content{
+    height: 300px;
+width: 450px;
+border: 1px solid black;
+
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.Payment{
+    font-size: 30px;
+    height: 220px;
+    width: 100%;
+    background-color: #f5f7fa;
+    position: relative;
+
+}
+
+.payh1{
+    width: 600px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.container{
+   height: 800px;
+   width: 100%;
+   background-color: #f5f7fa;
+   display: flex;
+   justify-content: space-around ;
+   align-items: center;    
+   position: relative;
+}
+.paytmwallet-first{
+    width: 45%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+   position: relative;
+}
+.paytmwallet-second{
+    width: 45%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+   
+}
+
+.paytmwallet-first img{
+    height: 40%;
+    width: 80%;
+    margin-top: 430px;
+    margin-left: 50px;
+}
+.paytmwallet-first P{
+
+    font-size: 20px;
+    top: 240px;
+    left: 60px;
+    position: absolute;
+}
+
+.evertime H1{
+    height: 110px;
+    width: 400px;
+    font-size: 26px;
+    top: 160px;
+    left: 60px;
+    position: absolute;
+
+}
+
+.hdfcimg{
+    height:110px ;
+    width: 200px;
+    left: 60px;
+    top:50px;
+    background-image: url(./images/hdfc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.sbiimg{
+    height:110px ;
+    width: 200px;
+    left: 60px;
+    top:110px;
+    background-image: url(./images/sbicard.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.paytmwallet-second img{
+    height: 40%;
+    width: 80%;
+    margin-top: 430px;
+    margin-left: 50px;
+}
+
+.financial{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.financialtext{
+    height: 100%;
+    width: 50%;
+}
+.financial h1{
+    margin-top: 70px;
+    font-size: 47px;
+    margin-left: 50px;
+}
+
+.financial img{
+    height: 30px;
+    margin-top: 40px;
+    margin-left :50px; ;
+}
+
+.financial p{
+
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.financialimg{
+    height: 70%;
+    width: 36%;
+    background-image: url(./images/fino.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    left: 700px;
+}
+
+.financial button{
+    height: 67px;
+    width: 185px;
+    border-radius: 7px;
+    border: none;
+    background-color: #00174d;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.paytmmoney{
+    height: 800px;
+    width: 100%;
+    background-image: url(./images/backgraound.webp);
+    background-size: cover;
+    background-color: #f5f7fa;
+    display: flex;
+}
+
+.paytmmoneyimg{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+   
+}
+
+.paytmmoneyimg img{
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.paytmmoneytext{
+      height: 60%;
+      width: 45%;
+
+      font-size: 20px;
+}
+
+.paytmmoneytext h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+ 
+.paytmmoneytext button{
+    height: 53px;
+    width: 169px;
+    border-radius: 30px;
+    background-color: #00174d;
+    margin-top:  200px;
+    margin-left: 26px;
+    color: white;
+    font-size: 20px;
+}
+
+.insurance{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.insurancetext{
+    height: 100%;
+    width: 50%;
+}
+.insurance h1{
+    margin-top: 70px;
+    font-size: 47px;
+    margin-left: 50px;
+}
+
+.insurance img{
+    height: 50px;
+    margin-top: 40px;
+    margin-left :50px; ;
+}
+
+.insurance p{
+
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.insuranceimg{
+    height: 60%;
+    width: 36%;
+    background-image: url(./images/insurance.webp);
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 120px;
+    
+}
+
+.insurance button{
+    height: 53px;
+    width: 169px;
+    border-radius: 30px;
+    background-color: #00174d;
+    margin-top:  100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+.personal{
+    height: 100vh;
+    width:  100%;
+    background-color: #f5f7fa;
+    display: flex;
+    
+}
+
+.personalimg{
+    
+    height: 76%;
+    width: 30%;
+    background-image: url(./images/personal.webp);
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 100px;
+     
+}
+
+.personaltext{
+    height: 80%;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+   
+}
+.personaltext h1{
+    margin-top: 70px;
+    font-size: 40px;
+    height: 50px;
+    margin-left: 130px;
+}
+
+.personaltext img{
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.personaltext p{
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+.personaltext button{
+    margin-left: 130px;
+    margin-top: 40px;
+    height: 53px;
+    width: 169px;
+    border-radius: 30px;
+    background-color: #00174d;
+    color: white;
+    font-size: 20px;
+}
+.Paymente{
+    font-size: 30px;
+    height: 170px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+
+}
+.payh2{
+    width: 600px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    background-color: white;
+}
+.accept-container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .accept{
+    height: 92%;
+    width: 92%;
+    background-color:#f5f7fa;;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}   
+
+.accepttext{
+    height: 100%;
+    width: 50%;
+
+}
+.acceptimg{
+    height: 100%;
+    width: 50%;
+   
+}
+.acceptimg img{
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.accepttext h1{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.accepttext p{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+   
+}
+
+.accepttext button{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 53px;
+    width: 169px;
+    border-radius: 30px;
+    background-color: #00174d;
+    color: white;
+    font-size: 20px;
+}
+
+.inshope-container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inshope{
+    height: 92%;
+    width: 92%;
+    background-color:#f5f7fa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.inshopetext{
+    height: 100%;
+    width: 50%;
+
+}
+.inshopeimg{
+    height: 100%;
+    width: 50%;
+   
+}
+.inshopeimg img{
+    height: 420px;
+    margin-top: 70px;
+    margin-left: 44px;
+}
+
+.inshopetext h1{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.inshopetext p{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+   
+}
+
+.inshopetext button{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 53px;
+    width: 169px;
+    border-radius: 30px;
+    background-color: #00174d;
+    color: white;
+    font-size: 20px;
+}
+
+.busineestools{
+    height: 50vh;
+    background-color: white;
+    font-size: 26px ;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+.deshbord{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.fistimg{      
+    height: 500px;
+    width: 400px;
+   
+}
+
+.fistimg img{
+    height: 200px;
+    margin-left: 70px;
+}
+.secondimg{
+    height: 500px;
+    width: 400px;
+  
+}
+.secondimg img{
+    height: 200px;
+    margin-left: 70px;
+}
+.advertise{
+    height: 500px;
+    width: 400px;
+   
+}
+
+.advertise img{
+    height: 200px;
+    margin-left: 70px;
+}
+.business-khata{
+    height: 500px;
+    width: 400px;
+   
+}
+.business-khata img{
+    height: 200px;
+    margin-left: 70px;
+}
+.paid{
+  
+    height: 190px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.paid:hover{
+    border: 1px solid black;
+    height: 190px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #5b9eb3;
+
+
+}
+.deshbord h1{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.deshbord p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.deshbord button {
+    border-radius: 4px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    background-color: white;
+  
+  
+    
+  }
+  
+  .deshbord button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .deshbord button:after {
+    content: '-->';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .deshbord button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .deshbord button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
+  .container-lastcard{
+    height: 900px;
+    width: 100%;
+    background-color:#f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+   
+  }
+
+  .lastcard{
+    height: 350px;
+    width: 94%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 80px;
+    display: flex;
+  }
+
+  .lastcardtwo{
+    height: 350px;
+    width: 94%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    display: flex;
+  }
+
+  .lasttext{
+    height: 100%;
+    width: 30%;
+    
+  }
+
+  .cardtext{
+    height: 100%;
+    width: 30%;
+   
+  }
+
+  .container-lastcard img{
+    height: 64px;
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+ .container-lastcard p{
+    margin-left: 70px;
+    margin-top: 40px;
+ }
+ 
+ 
+
+ .cardimgg{
+    height:100% ;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .cardimg{
+    height:100% ;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+ .cardbox1{
+    height: 250px;
+    width: 160px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #66d6ff;
+    flex-direction: column;
+    position: relative;
+ }
+
+ .cardbox1 img{
+    border-radius: 14px;
+    height: 154px;
+    margin-right: 70px;
+    margin-bottom: 133px;
+  
+ }
+
+ .cardbox1 h1{
+    position: absolute;
+    color: white;
+    top: 180px;
+    font-size: 19px;
+    text-align: center;
+ }
+ .cardbox2{
+    height: 250px;
+    width: 160px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #66d6ff;
+    flex-direction: column;
+    position: relative;
+ }
+ .cardbox2 img{
+    border-radius: 14px;
+    height: 80px;
+    margin-right: 100px;
+    margin-bottom: 160px;
+  
+ }
+ .cardbox2 h1{
+    position: absolute;
+    color: white;
+    top: 130px;
+    font-size: 19px;
+    
+    
+ }
+  .footer{
+    border-bottom: 1px lightgray;
+  }
+
+ .footer h3{
+    margin: 20px 4px;
+    font-size: 15px;
+ }
+ .bi-plus-lg{
+    margin-right: 10px;
+ }
+
+
+
+ .withcode{
+    font-size: 18px;
+    top: 73%; 
+    margin-left: 12px;
+    color: white;
+    position: absolute;
+}
+
+.downloadsec{
+    height: 180px;
+    width: 100%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    background-color:#f5f7fa;
+    border-bottom: 1px lightgray;
+}
+.downloadsec h1{
+    margin-left: 10px;
+}
+.downapimg{
+    height: 100px;
+    width: 50%;
+
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Responsive Section */
+@media(max-width:768px){
+    
+
+    .bi-list{
+        display: block;
+    }
+
+    nav{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+    .logo{
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .responsive-links{
+        display: none;
+    }
+
+    .logo-links{
+        list-style: none;
+        display: flex;
+    }
+
+    .kyc-note ul{
+        justify-content: space-between;
+    }
+
+    .kyc-note li{
+        width: 120px;
+    }
+    .first{
+        height: 100%;
+        width: 60%;
+        background-color: white;
+        font-size: 30px;
+        display: none;
+    }
+    .second{
+        height: 100%;
+        width: 100%;
+        background-image: url(./images/1656568118664.webp);
+        background-size: cover;
+    }
+    .cardbox2 img{
+        flex-wrap: wrap;
+    }
+
+}
